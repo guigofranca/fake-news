@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 375px) {
+    /* SECTION 1 */
+    #section1-title {
+        text-align: center;
+    }
+
+    /* SECTION 2 */
+    #section2-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* SECTION 3 */
+    #section3-title {
+        
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+::selection {
+    color: white;
+    background-color: #9F0D0C;
+}
+
+body {
+    font-size: 1.3em;
+    background-color: rgb(61, 6, 6);
+    overflow-x: hidden;
+    width: auto;
+    height: auto;
+}
+
+section {
+    width: 90%;
+    max-width: 750px;
+}
+
+#fake {
+    color: #ffa875;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: white;
+}
+
+/* ======= CABEÇALHO ======= */
+.header {
+    background-color: #9F0D0C;
+    color: white;
+    width: 10000px;
+    height: 70px;
+}
+
+/* ======= SECTION 1 ======= */
+.section1 {
+    display: grid;
+    place-items: center;
+}
+
+#section1-title {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section1-text {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+
+/* ======= SECTION 2 ======= */
+.section2 {
+    display: grid;
+    place-items: center;
+}
+
+#img2 {
+    max-width: 450px;
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+#img3 {
+    max-width: 550px;
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+#img4 {
+    max-width: 500px;
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+#section2-title {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    width: fit-content;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#fonte {
+    color: white;
+    font-size: 14px;
+    width: fit-content;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* ======= SECTION 3 ======= */
+.section3 {
+    display: grid;
+    place-items: center;
+}
+
+#section3-title {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section3-subtitle {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#section3-text {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+
+/* ======= SECTION 4 ======= */
+.section4 {
+    display: grid;
+    place-items: center;
+}
+
+#section4-title {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section4-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+/* ======= SECTION 5 ======= */
+.section5 {
+    display: grid;
+    place-items: center;
+}
+
+#section5-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    margin-top: 50px;
+}
+
+#section5-subtitle {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+#section5-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+/* ======= SECTION 6 ======= */
+.section6 {
+    display: grid;
+    place-items: center;
+}
+
+#section6-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+    margin-top: 50px;
+}
+
+#section6-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+#instagram {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    margin: 3px 0px;
+    width: 200px;
+    padding: 10px;
+}
+
+#instagram:hover {
+    cursor: pointer;
+    border: solid 1px white;
+    background-color: rgb(105, 12, 12);
+}
+
+#click-instagram {
+    text-decoration: none;
+}
+
+/* ======= DIVS RED ======= */
+#red {
+    background-color:#9F0D0C;
+    width: 100%;
+    height: 70px;
+    color:white;
+}
+
+#red2 {
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    color:white;
+}
+
+#red3 {
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    color:white;
+}
+
+#red4 {
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    color:white;
+}
+
+#red5 {
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    color:white;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    background-color: #9F0D0C;
+    color: white;
+    height: 70px;
+    width: 10000px;
+    height: 70px;
+    margin-top: -30px;
+}
